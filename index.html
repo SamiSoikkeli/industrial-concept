@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Makino Seiki</title>
+
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400,700" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+        <defs>
+            <symbol viewBox="0 0 60 60" id="icon-facebook">
+                <path d="M25.8 46.3h6.7V30H37l.6-5.6h-5.1v-2.8c0-1.5.1-2.3 2.2-2.3h2.8v-5.6H33c-5.4 0-7.3 2.7-7.3 7.3v3.4h-3.4V30h3.4v16.3zM30 60C13.4 60 0 46.6 0 30S13.4 0 30 0s30 13.4 30 30-13.4 30-30 30z"/>
+            </symbol>
+            <symbol viewBox="0 0 60 60" id="icon-linkedin">
+                <path d="M46.8 44.1V32.4c0-6.3-3.3-9.2-7.8-9.2-3.6 0-5.2 2-6.1 3.4v-2.9h-6.8c.1 1.9 0 20.4 0 20.4h6.8V32.7c0-.6 0-1.2.2-1.7.5-1.2 1.6-2.5 3.5-2.5 2.5 0 3.4 1.9 3.4 4.6V44l6.8.1zM19 20.9c2.4 0 3.8-1.6 3.8-3.5 0-2-1.5-3.5-3.8-3.5s-3.8 1.5-3.8 3.5 1.4 3.5 3.8 3.5zM30 60C13.4 60 0 46.6 0 30S13.4 0 30 0s30 13.4 30 30-13.4 30-30 30zm-7.6-15.9V23.7h-6.8v20.4h6.8z"/>
+            </symbol>
+            <symbol viewBox="0 0 60 60" id="icon-twitter">
+                  <path d="M34.2 18.3c-2.6 1-4.3 3.4-4.1 6.1l.1 1-1-.1c-3.8-.5-7.1-2.1-10-4.9L17.7 19l-.4 1c-.8 2.3-.3 4.7 1.3 6.3.8.9.6 1-.8.5-.5-.2-.9-.3-1-.2-.1.1.4 2.1.8 2.8.5 1.1 1.7 2.1 2.9 2.7l1 .5h-1.2c-1.2 0-1.2 0-1.1.5.4 1.4 2.1 2.8 3.9 3.5l1.3.4-1.1.7c-1.7 1-3.6 1.5-5.6 1.6-.9 0-1.7.1-1.7.2 0 .2 2.6 1.4 4 1.9 4.5 1.4 9.8.8 13.7-1.6 2.8-1.7 5.7-5 7-8.2.7-1.7 1.4-4.9 1.4-6.4 0-1 .1-1.1 1.2-2.3.7-.7 1.3-1.4 1.5-1.6.2-.4.2-.4-.9 0-1.8.6-2 .6-1.2-.4.6-.7 1.4-1.9 1.4-2.3 0-.1-.3 0-.7.2-.4.2-1.2.5-1.8.7l-1.1.4-1-.7c-.6-.4-1.4-.8-1.8-.9-.9-.4-2.6-.4-3.5 0zM30 60C13.4 60 0 46.6 0 30S13.4 0 30 0s30 13.4 30 30-13.4 30-30 30z"/>
+            </symbol>
+            <symbol viewBox="0 0 60 60" id="icon-jpn">
+                <path d="M30 58.125C45.533 58.125 58.125 45.533 58.125 30C58.125 14.467 45.533 1.875 30 1.875C14.467 1.875 1.875 14.467 1.875 30C1.875 45.533 14.467 58.125 30 58.125Z" fill="#F5F5F5"/>
+                <path d="M30 41.25C36.2132 41.25 41.25 36.2132 41.25 30C41.25 23.7868 36.2132 18.75 30 18.75C23.7868 18.75 18.75 23.7868 18.75 30C18.75 36.2132 23.7868 41.25 30 41.25Z" fill="#ED4C5C"/>
+            </symbol>
+            <symbol viewBox="0 0 60 60" id="icon-eng">
+                <path d="M20.625 56.5313V43.5938L10.9688 50.7187C13.6875 53.25 16.9687 55.2188 20.625 56.5313" fill="#2A5F9E"/>
+                <path d="M39.375 56.5315C43.0313 55.219 46.3125 53.2502 49.0312 50.719L39.375 43.5002V56.5315Z" fill="#2A5F9E"/>
+                <path d="M3.46875 39.375C3.75 40.3125 4.125 41.1563 4.59375 42.0938L8.25 39.375H3.46875Z" fill="#2A5F9E"/>
+                <path d="M51.75 39.375L55.4062 42.0938C55.7812 41.25 56.1562 40.3125 56.5312 39.375H51.75Z" fill="#2A5F9E"/>
+                <path d="M22.031 35.625H2.43726C2.71851 36.9375 3.09351 38.1563 3.46851 39.375H8.24976L4.59351 42.0938C5.34351 43.6875 6.18726 45.0937 7.21851 46.5L16.8748 39.375H20.6248V41.25L9.65601 49.3125L10.9685 50.625L20.6248 43.5938V56.5313C21.8435 57 23.0623 57.2813 24.3748 57.5625V35.625H22.031Z" fill="white"/>
+                <path d="M57.5625 35.625H35.625V57.5625C36.9375 57.2813 38.1563 56.9063 39.375 56.5313V43.5938L49.0313 50.625C50.3438 49.4063 51.4688 48.0938 52.5938 46.6875L42.5625 39.375H48.9375L54.6563 43.5938C54.9375 43.125 55.2188 42.5625 55.4063 42.0938L51.75 39.375H56.5313C56.9063 38.1563 57.2813 36.9375 57.5625 35.625" fill="white"/>
+                <path d="M7.21875 46.4998C7.96875 47.531 8.71875 48.4685 9.5625 49.406L20.625 41.3435V39.4685H16.875L7.21875 46.4998Z" fill="#ED4C5C"/>
+                <path d="M42.6562 39.375L52.6875 46.6875C53.0625 46.2188 53.3437 45.75 53.7187 45.2813C53.8125 45.1875 53.8125 45.0937 53.9062 45.0937C54.1875 44.625 54.5625 44.0625 54.8438 43.5938L48.9375 39.375H42.6562Z" fill="#ED4C5C"/>
+                <path d="M39.375 3.46875V16.4062L49.0312 9.28125C46.3125 6.75 43.0313 4.78125 39.375 3.46875Z" fill="#2A5F9E"/>
+                <path d="M20.625 3.46875C16.9687 4.78125 13.6875 6.75 10.9688 9.28125L20.625 16.5V3.46875Z" fill="#2A5F9E"/>
+                <path d="M56.5312 20.6252C56.25 19.6877 55.875 18.844 55.4062 17.9065L51.75 20.6252H56.5312" fill="#2A5F9E"/>
+                <path d="M8.25 20.6252L4.59375 17.9065C4.21875 18.844 3.84375 19.6877 3.46875 20.6252H8.25Z" fill="#2A5F9E"/>
+                <path d="M37.9688 24.3748H57.4688C57.1875 23.0623 56.8125 21.8435 56.4375 20.6248H51.6562L55.3125 17.906C54.5625 16.3123 53.7188 14.906 52.6875 13.4998L43.125 20.6248H39.375V18.7498L50.3438 10.6873L49.0313 9.37476L39.375 16.406V3.46851C38.1563 2.99976 36.9375 2.71851 35.625 2.43726V24.3748H37.9688Z" fill="white"/>
+                <path d="M2.43726 24.3748H24.3748V2.43726C23.0623 2.71851 21.8435 3.09351 20.6248 3.46851V16.406L10.9685 9.37476C9.65601 10.5935 8.53101 11.906 7.40601 13.3123L17.4373 20.6248H11.0623L5.34351 16.406C5.06226 16.8748 4.78101 17.4373 4.59351 17.906L8.24976 20.6248H3.46851C3.09351 21.8435 2.71851 23.0623 2.43726 24.3748Z" fill="white"/>
+                <path d="M52.7813 13.5C52.0313 12.4687 51.2813 11.5313 50.4375 10.5938L39.375 18.6563V20.5313H43.125L52.7813 13.5" fill="#ED4C5C"/>
+                <path d="M17.3435 20.625L7.40601 13.3125C7.03101 13.7812 6.74976 14.25 6.37476 14.7187C6.28101 14.8125 6.28101 14.9062 6.18726 14.9062C5.90601 15.375 5.53101 15.9375 5.24976 16.4062L10.9685 20.625H17.3435Z" fill="#ED4C5C"/>
+                <path d="M57.5625 24.375H35.625V2.4375C33.8438 2.0625 31.9687 1.875 30 1.875C28.0313 1.875 26.1562 2.0625 24.375 2.4375V24.375H2.4375C2.0625 26.1562 1.875 28.0313 1.875 30C1.875 31.9687 2.0625 33.8438 2.4375 35.625H24.375V57.5625C26.1562 57.9375 28.0313 58.125 30 58.125C31.9687 58.125 33.8438 57.9375 35.625 57.5625V35.625H57.5625C57.9375 33.8438 58.125 31.9687 58.125 30C58.125 28.0313 57.9375 26.1562 57.5625 24.375Z" fill="#ED4C5C"/>
+            </symbol>
+            <symbol viewBox="0 0 60 60" id="icon-cn">
+                <path d="M30 58.125C45.533 58.125 58.125 45.533 58.125 30C58.125 14.467 45.533 1.875 30 1.875C14.467 1.875 1.875 14.467 1.875 30C1.875 45.533 14.467 58.125 30 58.125Z" fill="#ED4C5C"/>
+                <path d="M20.625 26.625L28.125 31.875L25.3125 23.25L32.8125 17.8125H23.5313L20.625 9.375L17.8125 17.8125H8.4375L15.9375 23.25L13.125 31.875L20.625 26.625Z" fill="#FFE62E"/>
+                <path d="M33.0937 33.0937L30.9375 33.5625L33 34.4063V36.5625L34.4063 34.9687L36.4688 35.7187L35.25 33.9375L36.5625 32.25L34.4063 32.7188L33.0937 30.9375V33.0937Z" fill="#FFE62E"/>
+                <path d="M36.2813 26.7188L34.6875 28.125L36.8437 27.9375L37.7812 30L38.1563 27.8438L40.3125 27.6562L38.4375 26.5312L38.9062 24.375L37.3125 25.7812L35.4375 24.6562L36.2813 26.7188Z" fill="#FFE62E"/>
+                <path d="M36.8437 19.4063L37.5 21.5625L38.1563 19.5H40.3125L38.625 18.1875L39.2813 16.0313L37.5 17.3438L35.8125 15.9375L36.4688 18.0937L34.6875 19.3125L36.8437 19.4063Z" fill="#FFE62E"/>
+                <path d="M33.0937 11.9062V14.0625L34.4063 12.2813L36.5625 12.75L35.25 11.0625L36.4688 9.28125L34.4063 10.125L33 8.4375V10.5938L30.9375 11.4375L33.0937 11.9062Z" fill="#FFE62E"/>
+            </symbol>
+            
+            
+                
+        </defs>
+    </svg>
+    
+    <header id="masthead" role="banner">
+        <div class="container">
+            <a href="index.html">
+                <img class="logo" src="images/logo4.png" alt="Makino Seiki">
+            </a>
+        <!--
+        <form id="masthead-search">
+        <input type="search" name="s" aria-labelledby="search-label" placeholder="Search&hellip;" class="draw">
+          <button type="submit">&rarr;</button>
+          </form>
+        -->
+
+        <ul id="menu">
+            <li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
+            <li data-menuanchor="page2"><a href="#page2">Products</a></li>
+            <li data-menuanchor="page3"><a href="#page3">Applications</a></li>
+            <li data-menuanchor="page4"><a href="#page4">Contact</a></li>
+        </ul>
+          <button class="hamburger hamburger--boring" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+            <span class="hamburger-label"></span>
+          </button>     
+          <nav id="site-nav" role="navigation">
+            <div class="col">
+              <h4>Products</h4>
+              <ul>
+                <li><a href="#">CNC Tool & Cutter Grinders</a></li>
+                <li><a href="#">Small Tool Grinders</a></li>
+                <li><a href="#">Double-Centre Type CNC Tool & Cutter Grinder</a></li>
+                <li><a href="#">Vertical Cylindrical Grinder</a></li>
+              </ul>            
+            </div>
+            <div class="col">
+              <h4>Applictations</h4>
+              <ul>
+                <li><a href="#">Schedule Manager - Basic</a></li>
+                <li><a href="#">MSPS-Ⅱ</a></li>
+                <li><a href="#">Fine Surface System</a></li>
+                <li><a href="#">How To</a></li>
+              </ul> 
+            </div>
+            <div class="col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Our Culture</a></li>
+                <li><a href="#">News</a></li>
+              </ul>             
+            </div>
+            <div class="col">
+              <h4>Join Us</h4>
+              <ul>
+                <li><a href="#">Recruit</a></li>
+                <li><a href="#">School</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>               
+            </div>
+            <div class="col">
+              <ul class="social">
+                <li><a href=""><svg title="JPN"><use xlink:href="#icon-jpn"></use></svg></a></li>
+                <li><a href=""><svg title="ENG"><use xlink:href="#icon-eng"></use></svg></a></li>
+                <li><a href=""><svg title="CN"><use xlink:href="#icon-cn"></use></svg></a></li>
+                <br />
+                <br />
+                <li><a href=""><svg title="Facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
+                <li><a href=""><svg title="Twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
+                <li><a href=""><svg title="LinkedIn"><use xlink:href="#icon-linkedin"></use></svg></a></li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </header>
+
+
+	<div id="pagepiling">
+	    <div class="section" id="section1">
+	    	<video autoplay loop muted id="myVideo">
+				<source src="videos/BGVid.mp4" type="video/mp4">
+			</video>
+			<div class="layer">
+			</div>
+	    </div>
+	    <div class="section" id="section2">
+	    	<div class="intro">
+	    		<h1 class="animate__animated animate__fadeIn animate__slower">Products</h1>
+                <div class="row">
+                    <div class="column animate__animated animate__fadeInLeft animate__slow">
+                      <h2>AGE30</h2>
+                      <h3>Long-term Stability of High Precision Grinding</h3>
+                      <p>AGE30: cutting-edge CNC Tool & Cutter Grinder. This advanced CNC Tool & Cutter Grinder achieved through further pursuit of high-precision and high-efficiency can be used in fully automated operation. Realizing grinding tools with special shapes and high-mix low-volume production, it flexibly responds to production environments today.</p>
+                    
+                      <div class="button">
+                        <span>More Info</span>
+                        <svg>
+                            <polyline class="o1" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+                            <polyline class="o2" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+                        </svg>
+                    </div>
+                    
+                    </div>
+                    <div class="column animate__animated animate__fadeInRight animate__slower">
+                      <img src="images/AGE30-removebg-preview.png" alt="">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="column animate__animated animate__fadeInLeft animate__slower">
+                        <img src="images/SG10-removebg-preview.png" alt="">
+                    </div>
+                    <div class="column animate__animated animate__fadeInRight animate__slow">
+                        <h2>SG10</h2>
+                        <h3>High Precision, Fast, Compact</h3>
+                        <p>SG10 implements space-saving and higher agility by focusing on the range of small to medium tool diameters.</p>
+                      
+                        <div class="button">
+                          <span>More Info</span>
+                          <svg>
+                              <polyline class="o1" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+                              <polyline class="o2" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+                          </svg>
+                      </div>
+                    </div>
+                  </div>
+	    	</div>
+	    </div>
+        <div class="section" id="section3">
+	    	<div class="intro">
+	    		<h1 class="animate__animated animate__fadeIn animate__slower">Applications</h1>
+                <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ullam natus quod consequuntur assumenda accusantium cupiditate, quia nobis explicabo sed!</p>
+                <main class="page-content">
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Schedule Manager - Basic</h2>
+                            <p class="copy">is our own software which enables you to schedule several different programs generated by MSPS-Ⅱ to be executed upon different pallet holes during automatic operations.</p><button class="btn">More Info</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">MSPS-Ⅱ</h2>
+                            <p class="copy">Our MSPS-Ⅱ software.</p><button class="btn">More Info</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Fine Surface System</h2>
+                            <p class="copy">“FSS” is developed for grinding tools with extreme-hard & difficult-to-grind materials such as PCD (Polycrystalline Diamond).</p><button class="btn">More Info</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">How To</h2>
+                            <p class="copy">Various shapes of step tools can be created by easy programming.</p><button class="btn">More Info</button>
+                        </div>
+                    </div>
+                </main>
+	    	</div>
+	    </div>
+	    <div class="section" id="section4">
+                <div class="intro">
+                    <div class="container">
+                        <section class="section1">
+                            <div class="sec1title">
+                                <h1 class="animate__animated animate__fadeIn animate__slower">Get in touch</h1>
+                            </div>	
+                        </section>
+                        <section class="section2"> 
+                            <div class="contactform">
+                            <h5>Contact us</h5>
+                                <form action="#">
+                                    <label for="firstname">
+                                        <input name="firstname" class="form-fields" type="text" placeholder="Name">
+                                    </label>
+                                    <label for="email">                                       
+                                        <input name="email" class="form-fields" type="text" placeholder="Email">
+                                    </label>
+                                    <label for="contact">                                      
+                                        <input name="contact" class="form-fields" type="text" placeholder="Phone">
+                                    </label>
+                                    <label for="textarea">
+                                        <textarea class="form-fields" name="textarea" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                    </label>
+                                    <button class="form-fields button" value="Send" type="submit">Send <i class="fa fa-paper-plane"></i></button>
+                                </form>
+                            </div>
+                            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div class="contmap" style='overflow:hidden;height:550px;width:100%;'><div id='gmap_canvas' style='height:100%;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(19.075314480255834,72.88153973865361),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.075314480255834,72.88153973865361)});infowindow = new google.maps.InfoWindow({content:'<strong>My Location</strong><br>mumbai<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                        </section>
+                    </div>
+                </div>
+	    </div>
+	</div>
+
+    <!--SCRIPTS-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+	<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+</body>
+</html>
